@@ -9,6 +9,8 @@ try:
     
     # Ordenar los datos por nombre
     data_ordenada = data.sort_values(by='Nombre1')
+
+    # Cambiar los valores null por 0
     
     # Exportar a Excel
     archivo_excel = 'clientes_ordenados.xlsx'
